@@ -1,0 +1,12 @@
+
+services:
+  portofolio:
+    image: php:8.3-cli
+    container_name: portofolio-php
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    command: php -S 0.0.0.0:8000 -t /var/www/html
+    restart: unless-stopped
