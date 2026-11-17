@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Mindo Fanbregas Sitorus - Rekayasa Perangkat Lunak">
+    <title>Portofolio | MINDO FANBREGAS SITORUS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        parchment: '#f6dfad', paper: '#ffedc8', wood: '#75401f',
+                        woodDark: '#3f2416', pixelGreen: '#79a943', forest: '#244c2b', ink: '#4a3020'
+                    },
+                    fontFamily: { pixel: ['"Courier New"', 'monospace'] },
+                    boxShadow: { pixel: '5px 5px 0 #3f2416, -2px -2px 0 #3f2416', panel: '4px 4px 0 #3f2416' }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-woodDark p-3 text-ink sm:p-6">
+<main class="mx-auto max-w-5xl border-[8px] border-woodDark bg-parchment p-3 shadow-pixel sm:border-[12px] sm:p-7">
+    <div class="mb-5 flex justify-between" aria-hidden="true">
+        <span class="h-5 w-5 border-4 border-forest bg-pixelGreen"></span>
+        <span class="h-5 w-5 border-4 border-forest bg-pixelGreen"></span>
+    </div>
+
+    <header class="mb-8 grid gap-6 md:grid-cols-[230px_1fr] md:items-center">
+        <div class="mx-auto w-full max-w-[230px] border-[7px] border-gray-700 bg-gray-400 p-2 shadow-pixel">
+            <div class="flex aspect-square items-center justify-center border-4 border-gray-900 bg-[#d8c18f] text-center text-sm font-bold text-wood">
+                <img src="asset/satu.png" alt="Foto Profil" class="h-32 w-32 rounded-lg object-cover">
+            </div>
+            <div class="mt-2 grid grid-cols-4 gap-1 text-center text-xs font-black">
+                <span class="border-2 border-gray-800 bg-gray-900 p-2 text-red-400">PHP</span>
+                <span class="border-2 border-gray-800 bg-gray-900 p-2 text-cyan-300">CSS</span>
+                <span class="border-2 border-gray-800 bg-gray-900 p-2 text-yellow-300">SQL</span>
+                <span class="border-2 border-gray-800 bg-gray-900 p-2 text-green-300">...</span>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="font-pixel text-3xl font-black leading-tight tracking-tight text-forest sm:text-5xl">MINDO FANBREGAS SITORUS</h1>
+            <p class="mt-2 text-sm font-bold text-wood sm:text-base">REKAYASA PERANGKAT LUNAK (RPL)</p>
+            <a href="formal/" class="mt-4 inline-flex items-center gap-2 border-4 border-woodDark bg-forest px-5 py-2 font-bold text-paper shadow-panel transition hover:-translate-y-1 hover:bg-wood">
+                <span>▣</span> Lihat Portofolio Formal <span>↗</span>
+            </a>
+            <div class="my-4 h-1 w-full bg-pixelGreen"></div>
+            <div class="border-4 border-woodDark bg-wood p-4 text-paper shadow-panel sm:p-5">
+                <div class="grid gap-3 text-sm font-bold sm:text-base">
+                    <p><span class="mr-2 text-pixelGreen">▣</span>REKAYASA PERANGKAT LUNAK (RPL)</p>
+                    <p><span class="mr-2 text-pixelGreen">☎</span><a class="hover:underline" href="https://wa.me/6283840910949" target="_blank" rel="noopener noreferrer">+62 838-4091-0949</a></p>
+                    <p><span class="mr-2 text-pixelGreen">✉</span><a class="hover:underline" href="mailto:nclupaturu@gmail.com">nclupaturu@gmail.com</a></p>
+                    <p><span class="mr-2 text-pixelGreen">⌖</span>Kp. Caringin, RT.03/RW.02, Wargamekar</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="profil" class="mb-6 overflow-hidden border-4 border-woodDark shadow-panel">
+        <div class="flex items-center gap-3 bg-wood px-4 py-3 text-pixelGreen"><span class="text-2xl">▰</span><h2 class="font-pixel text-xl font-black uppercase sm:text-2xl">Profil</h2></div>
+        <div class="bg-paper p-5 text-sm font-semibold leading-7 sm:text-base">Siswa SMKN 7 Baleendah yang berfokus pada bidang Rekayasa Perangkat Lunak (RPL). Berpengalaman dalam Laravel, Tailwind, MySQL, dan PHP</div>
+    </section>
+
+    <section id="pendidikan" class="mb-6 overflow-hidden border-4 border-woodDark shadow-panel">
+        <div class="flex items-center gap-3 bg-wood px-4 py-3 text-pixelGreen"><span class="text-2xl">▤</span><h2 class="font-pixel text-xl font-black uppercase sm:text-2xl">Pendidikan</h2></div>
+        <div class="space-y-4 bg-paper p-5">
+            <div class="grid gap-1 text-sm font-bold sm:grid-cols-[1fr_auto] sm:items-center sm:text-base"><p><span class="mr-2 text-pixelGreen">▪</span>SDN BARANANG SIANG</p><p class="pl-4 text-forest sm:pl-0">2015 - 2021</p></div>
+            <div class="grid gap-1 text-sm font-bold sm:grid-cols-[1fr_auto] sm:items-center sm:text-base"><p><span class="mr-2 text-pixelGreen">▪</span>SMP KP CIPARAY</p><p class="pl-4 text-forest sm:pl-0">2021 - 2024</p></div>
+            <div class="grid gap-1 text-sm font-bold sm:grid-cols-[1fr_auto] sm:items-center sm:text-base"><p><span class="mr-2 text-pixelGreen">▪</span>SMK NEGERI 7 BALEENDAH</p><p class="pl-4 text-forest sm:pl-0">2024 - Sekarang</p></div>
+        </div>
+    </section>
+
+    <section id="proyek" class="mb-6 overflow-hidden border-4 border-woodDark shadow-panel">
+        <div class="flex items-center gap-3 bg-wood px-4 py-3 text-pixelGreen"><span class="text-2xl">⚒</span><h2 class="font-pixel text-xl font-black uppercase sm:text-2xl">Pengalaman Proyek</h2></div>
+        <div class="divide-y-2 divide-dashed divide-pixelGreen bg-paper px-5">
+            <article class="py-5">
+                <h3 class="font-bold text-ink"><span class="mr-2 text-pixelGreen">▪</span>Proyek - Perpustakaan Digital</h3>
+                <p class="mt-2 pl-5 text-sm font-medium leading-6 sm:text-base">Membuat proyek berbasis website, membuat fitur pengelolaan buku, peminjaman dan pengembalian, serta menerapkan operasi CRUD.</p>
+                <p class="mt-2 pl-5 text-sm font-bold text-forest">Teknologi: Laravel, Tailwind CSS, PHP, MySQL</p>
+                <div class="mt-5 grid grid-cols-1 gap-4 pl-5 sm:grid-cols-2">
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/perpustakaan/dashboard.png" alt="Dokumentasi Proyek Perpustakaan Digital" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/perpustakaan/kategori.png" alt="Dokumentasi Proyek Perpustakaan Digital" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/perpustakaan/buku.png" alt="Dokumentasi Proyek Perpustakaan Digital" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/perpustakaan/laporan.png" alt="Dokumentasi Proyek Perpustakaan Digital" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/perpustakaan/peminjaman.png" alt="Dokumentasi Proyek Perpustakaan Digital" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/perpustakaan/user.png" alt="Dokumentasi Proyek Perpustakaan Digital" class="h-48 w-full object-contain" loading="lazy"></div>
+                </div>
+            </article>
+            <article class="py-5">
+                <h3 class="font-bold text-ink"><span class="mr-2 text-pixelGreen">▪</span>Proyek - Peminjaman Barang</h3>
+                <p class="mt-2 pl-5 text-sm font-medium leading-6 sm:text-base">Membuat proyek berbasis website, membuat sistem autentikasi dan hak akses, mengelola data menggunakan MySQL.</p>
+                <p class="mt-2 pl-5 text-sm font-bold text-forest">Teknologi: Laravel, Tailwind CSS, PHP, MySQL</p>
+                <div class="mt-5 grid grid-cols-1 gap-4 pl-5 sm:grid-cols-2">
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/dashboard.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/alat.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/kategori.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/user.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/peminjaman.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/pengembalian.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/log.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                    <div class="overflow-hidden rounded-lg border-4 border-woodDark bg-parchment shadow-panel"><img src="asset/peminjaman/laporan.png" alt="Dokumentasi Proyek Peminjaman Barang" class="h-48 w-full object-contain" loading="lazy"></div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="keterampilan" class="mb-6 overflow-hidden border-4 border-woodDark shadow-panel">
+        <div class="flex items-center gap-3 bg-wood px-4 py-3 text-pixelGreen"><span class="text-2xl">⚔</span><h2 class="font-pixel text-xl font-black uppercase sm:text-2xl">Keterampilan</h2></div>
+        <div class="grid grid-cols-2 gap-3 bg-paper p-5 sm:grid-cols-4">
+            <div class="border-4 border-woodDark bg-forest px-3 py-3 text-center text-sm font-black text-paper shadow-panel">Laravel</div>
+            <div class="border-4 border-woodDark bg-forest px-3 py-3 text-center text-sm font-black text-paper shadow-panel">Tailwind CSS</div>
+            <div class="border-4 border-woodDark bg-forest px-3 py-3 text-center text-sm font-black text-paper shadow-panel">PHP</div>
+            <div class="border-4 border-woodDark bg-forest px-3 py-3 text-center text-sm font-black text-paper shadow-panel">MySQL</div>
+        </div>
+    </section>
+
+    <footer class="border-t-4 border-dashed border-pixelGreen pt-5 text-center">
+        <p class="font-pixel text-sm font-black text-forest sm:text-base">MINDO FANBREGAS SITORUS</p>
+        <p class="mt-2 text-xs font-semibold text-wood">PORTOFOLIO PRIBADI</p>
+        <p class="mt-2 text-xs font-semibold text-wood"><a href="https://github.com/Fx-Minzz" target="_blank" rel="noopener noreferrer" class="underline">GitHub: Fx-Minzz</a></p>
+    </footer>
+    <div class="mt-5 flex justify-between" aria-hidden="true">
+        <span class="h-5 w-5 border-4 border-forest bg-pixelGreen"></span>
+        <span class="h-5 w-5 border-4 border-forest bg-pixelGreen"></span>
+    </div>
+</main>
+</body>
+</html>

@@ -25,7 +25,7 @@ $profil = [
     'email'     => 'nclupaturu@gmail.com',
     'alamat'    => 'Kp. Caringin, RT.03/RW.02, Wargamekar',
     'deskripsi' => 'Siswa kelas XII jurusan Rekayasa Perangkat Lunak (RPL) di SMKN 7 Baleendah yang memiliki minat dalam pengembangan aplikasi berbasis web. Berpengalaman mengembangkan proyek menggunakan Laravel, PHP, dan MySQL. Memiliki kemampuan problem solving, serta pribadi yang teliti, bertanggung jawab, dan memiliki kemauan belajar tinggi.',
-    'foto'      => 'asset/satu.png',
+    'foto'      => '../asset/satu.png',
 ];
 
 $pendidikan = [
